@@ -1,0 +1,354 @@
+body {
+    background-color: white;
+    margin: 0 100px 0 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section {
+    margin-top: 57px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.navbar {
+    width: 1400px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.navbar li {
+    justify-items: center;
+    list-style-type: none;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.sign-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 5px;
+   
+}
+
+.sign-in {
+    width: 80px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    border-color: #BCD0E5;
+}
+
+.sign-up {
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    border-radius: 5px;
+    border-color: #979797;
+    color: white;   
+    border-style: none; 
+}
+
+/*--------------------------*/
+
+.section1 {
+    background-color: white;
+    display: flex; 
+}
+
+.section1-text {
+    padding: 100px;
+    display: flex; 
+    flex-direction: column;
+    width: 50%;
+}
+
+.section1-text h1 {
+    margin-bottom: 33px;
+    font-size: 44px;
+}
+
+.section1-text p {
+    margin-bottom: 33px;
+    font-size: 18px;
+}
+.section1-btns {
+    display: flex;
+    flex-direction: row; 
+}
+
+.girls-img {
+    width: 50%;
+}
+
+.play-btn {
+    width: 15px;
+    height: 17px;
+    padding-right: 5px;
+}
+
+.section1-btn1 {
+    width: 120px;
+    height: 30px;
+    background-color: #FF9900;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.section1-btn2 {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    padding-left: 4px;
+    margin-left: 5px;
+    border-style: none;
+    background-color: white;
+    color: #FF9900;
+}
+
+/*--------------------------*/
+
+.section2 {
+    background-color: white;
+}
+
+.section2-text {
+    flex-direction: column;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.section2-text h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.color-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: center;
+}
+
+.purple-text {
+    margin: 20px;
+}
+
+.yellow-text {
+    margin: 20px;
+}
+
+.red-text {
+    margin: 20px;
+}
+
+.blue-text {
+    margin: 20px;
+}
+
+.section2-btn {
+    width: 125px;   
+    height: 33px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section2-btns {
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------*/
+.section3 {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.section3 h2 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.section3 h4 {
+    margin: 10px;
+}
+
+.section3 p {
+    margin: 10px;
+}
+.section3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.section3 img {
+    width: 50%;
+    padding: 0 50px 0 50px;
+}
+
+
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.section4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.section4 img {
+    width: 50%;
+    padding: 0 50px 0 50px;
+}
+
+.section4-list img {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-right: 15px;
+}
+
+
+.checkmark1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.checkmark2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.checkmark3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+
+
+.section5 {
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+.section5-text {
+   margin-right: 20px;
+   width: 50%;
+}
+
+.section5 img {
+    width: 50%;
+    max-height: 80%;
+    margin-left: 20px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-self: flex-start;
+    
+}
+
+footer ul {
+
+}
+
+footer li {
+    margin: 7px;
+    list-style-type: none;
+}
+
+footer li a {
+    color: black;
+    text-decoration: none;
+   
+}
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer button {
+    margin-top: 10px;
+    width: 105px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FF9900;
+    color: white;
+
+}
+
+footer input {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #BCD0E5;
+}
+
+hr {
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+
+
